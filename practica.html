@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <script src="file.js"></script>
+  <link rel="stylesheet" href="style.css">
+
+  <title>Curso Básico HTML5</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>Hola Mundo</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Menu item 1</a></li>
+        <li><a href="#">Menu item 2</a></li>
+        <li><a href="#">Menu item 3</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Mi Noticia</h2>
+      <p>Minions <strong>ipsum</strong> hana dul sae hana dul sae hana dul sae la bodaaa underweaaar. Tatata bala tu la bodaaa pepete para tú bappleees jeje gelatooo tank yuuu! Underweaaar belloo! Hahaha jeje jeje daa tulaliloo aaaaaah butt. Bee do bee do bee do bappleees tank yuuu! Hahaha hana dul sae. Poopayee daa daa chasy butt wiiiii bananaaaa wiiiii jeje para tú. Bee do bee do bee do belloo! Ti aamoo! Chasy ti aamoo! Tatata bala tu la bodaaa chasy me want bananaaa! Hahaha me want bananaaa! Bee do bee do bee do. Poopayee daa baboiii bee do bee do bee do tank yuuu! Bappleees.</p>
+      <p>Tank yuuu! poulet tikka masala chasy aaaaaah. Tulaliloo ti aamoo! Gelatooo belloo! Potatoooo chasy jiji underweaaar tatata bala tu tatata bala tu. Bee do bee do bee do hana dul sae tulaliloo poulet tikka masala ti aamoo! Poopayee belloo! Tank yuuu! Baboiii jeje. Gelatooo pepete bananaaaa hana dul sae.</p>
+      <aside>
+        <img src="images/publicity.jpg" alt="publicity">
+      </aside>
+    </section>
+
+    <section>
+      <h2>Mi Formulario</h2>
+
+      <form action="/">
+        <fieldset>
+          <legend>Datos personales</legend>
+
+          <p><label>Nombre <input type="text" name="name" id="name"></label></p>
+          <p><label>Apellidos <input type="text" name="lastName" id="lastName"></label></p>
+          <p><label for="phoneNumber">Teléfono</label> <input type="tel" name="phoneNumber" id="phoneNumber"></p>
+          <p>
+            <label> <input type="radio" name="documentType" id="dni"> DNI</label>
+            <label> <input type="radio" name="documentType" id="nie"> NIE</label>
+          </p>
+          <p><label>Nº Documento <input type="text" name="documentNumber" id="documentNumber"></label></p>
+        </fieldset>
+        
+        <fieldset>
+          <legend>Otros datos</legend>
+
+          <p><label for="siblingsNumber">Nº de hermanos/as</label> <input type="text" name="siblingsNumber" id="siblingsNumber"></p>
+          <p>Deportes favoritos:</p>
+  
+          <ol>
+            <li><label>Fútbol <input type=checkbox id="cbox1" value="Fútbol"></label></li>
+            <li><label>Baloncesto <input type=checkbox id="cbox2" value="Baloncesto"></label></li>
+            <li><label>Rugby <input type=checkbox id="cbox3" value="Rugby"></label></li>
+            <li><label>Pádel <input type=checkbox id="cbox4" value="Pádel"></label></li>
+            <li><label>Pelota vasca <input type=checkbox id="cbox5" value="Pelota vasca"></label></li>
+          </ol>
+        </fieldset>
+
+        <button type="reset">Resetear formulario</button>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+   
+    <table>
+      <caption>Título de nuestra Tabla Molona</caption>
+      <tr>
+        <th>Nombre</th>
+        <th>Apellidos</th>
+        <th>Teléfono</th>
+        <th>DNI/NIE</th>
+        <th>Deportes</th>
+      </tr>
+      <tr>
+        <td>Carlos</td>
+        <td>Casalengua</td>
+        <td>987654321</td>
+        <td>12345678-A</td>
+        <td>Fútbol, Pádel</td>
+      </tr>
+      <tr>
+        <td>Jesús</td>
+        <td>Cárdenas</td>
+        <td>987654329</td>
+        <td>12345678-Z</td>
+        <td>Rugby, Pelota vasca</td>
+      </tr>
+    </table>
+  </main>
+
+</body>
+
+</html>
